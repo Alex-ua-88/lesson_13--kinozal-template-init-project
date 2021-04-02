@@ -113,21 +113,131 @@
                         <div class="site-search panel panel-info">
                               <div class="panel-heading">Поиск</div>
                               <div class="panel-body">
-                                    PanelBodyText
+                                    <form action="search">
+                                          <div class="input-group input-group-lg">
+                                                <input class="form-control" type="search" placeholder="Поиск по сайту">
+                                                <span class="input-group-btn">
+                                                      <button class="btn btn-default">
+                                                            <span class="glyphicon glyphicon-search"
+                                                                  aria-hidden="true"></span>
+                                                      </button>
+                                                </span>
+                                          </div>
+                                    </form>
                               </div>
                         </div>
 
                         <div class="user-login panel panel-info">
                               <div class="panel-heading">Пользователь</div>
                               <div class="panel-body">
-                                    PanelBodyText
+
+
+                                    <ul class="user-login__tabs nav nav-tabs" role="tablist">
+                                          <li role="presentation" class="active">
+                                                <a href="#user-login-sidebar" aria-controls="user-login-sidebar"
+                                                      role="tab" data-toggle="tab">
+                                                      <span class="glyphicon glyphicon-log-in"></span>
+                                                </a>
+                                          </li>
+                                          <li role="presentation">
+                                                <a href="#user-registration-sidebar"
+                                                      aria-controls="user-registration-sidebar" role="tab"
+                                                      data-toggle="tab">
+                                                      <span class="glyphicon glyphicon-user"></span>
+                                                </a>
+                                          </li>
+                                    </ul>
+
+                                    <div class="user-login__content tab-content">
+
+                                          <div role="tabpanel" class="tab-pane fade in active" id="user-login-sidebar">
+                                                <form action="login">
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="text"
+                                                                  placeholder="Логин">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="password"
+                                                                  placeholder="Парооль">
+                                                      </div>
+                                                      <button class="btn btn-default btn-block btn-lg">Вход</button>
+                                                </form>
+                                          </div>
+
+                                          <div role="tabpanel" class="tab-pane fade" id="user-registration-sidebar">
+                                                <form action="regiter">
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="text"
+                                                                  placeholder="Логин">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="password"
+                                                                  placeholder="Парооль">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <input class="form-control input-lg" type="email"
+                                                                  placeholder="Email">
+                                                      </div>
+                                                      <button
+                                                            class="btn btn-default btn-block btn-lg">Регистрция</button>
+                                                </form>
+                                          </div>
+
+                                    </div>
                               </div>
                         </div>
 
                         <div class="site-news panel panel-info">
                               <div class="panel-heading">Новости сайта</div>
                               <div class="panel-body">
-                                    PanelBodyText
+
+                                    <div class="site-news-item">
+                                          <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png"
+                                                      alt="thumb"></div>
+                                          <div class="site-news-item__title"><a href="#">Lorem ipsum, dolor sit amet
+                                                      consectetur
+                                                      adipisicing elit. Vero fugiat, dolor ab doloribus quam
+                                                      deserunt.</a></div>
+                                          <div class="site-news-item__date">29 марта 2021</div>
+                                    </div>
+
+                                    <div class="site-news-item">
+                                          <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png"
+                                                      alt="thumb"></div>
+                                          <div class="site-news-item__title"><a href="#">Lorem ipsum, dolor sit amet
+                                                      consectetur
+                                                      adipisicing elit. Vero fugiat, dolor ab deserunt.</a></div>
+                                          <div class="site-news-item__date">28 марта 2021</div>
+                                    </div>
+
+                                    <div class="site-news-item">
+                                          <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png"
+                                                      alt="thumb"></div>
+                                          <div class="site-news-item__title"><a href="#">Lorem ipsum, dolor sit am
+                                                      adipisicing elit.
+                                                      Vero fugiat, dolor ab doloribus quam deserunt.</a></div>
+                                          <div class="site-news-item__date">1 апреля 2021</div>
+                                    </div>
+
+                                    <div class="site-news-item">
+                                          <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png"
+                                                      alt="thumb"></div>
+                                          <div class="site-news-item__title"><a href="#">Lorem ipsum, dolor t
+                                                      consectetur
+                                                      adipisicing elit. Vero fugiat, dolor ab doloribus quam
+                                                      deserunt.</a></div>
+                                          <div class="site-news-item__date">2 декабря 2020</div>
+                                    </div>
+
+                                    <div class="site-news-item">
+                                          <div class="site-news-item__image thumbnail"><img src="assets/img/75x75.png"
+                                                      alt="thumb"></div>
+                                          <div class="site-news-item__title"><a href="#">Lorem ipsum, dolor sit amet
+                                                      consectetur
+                                                      ibus quam deserunt.</a></div>
+                                          <div class="site-news-item__date">27 марта 2021</div>
+                                    </div>
+
                               </div>
                         </div>
 
